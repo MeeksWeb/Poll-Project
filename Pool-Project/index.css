@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-header {
+    text-align: center;
+    background-color: blue;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card {
+    height: 570px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+.card-body {
+    margin-left: 39px;
+    margin-top: 20px;
+    margin-right: 44px;
+   
+    
+}
+.card-body2 {
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 43px;
+   
+    
+}
+.form-check{
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.form-check2{
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    text-align: center;
+}
+#poll-form .btn{
+   padding: 6px 0;
+   width: 320px;
+   margin: 29px auto;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+}
+#poll-form .btn:hover {
+    background-color: darkblue;
+}
+.form-check-label {
+    padding-left: 6px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
+}
+
+.results{
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

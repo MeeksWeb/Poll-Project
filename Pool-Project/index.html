@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body class="bg-light">
+    <div class="card">
+      <div class="card-header">
+        <h1>Favorite Footballer</h1>
+      </div>
+      <div class="card-body">
+        <form id="poll-form">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="poll-option"
+              id="poll-option"
+              value="Lionel Messi"
+            />
+            <label class="form-check-label" for="poll-option"> Lionel Messi </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="poll-option"
+              id="poll-option"
+              value="Cristiano Ronaldo"
+            />
+            <label class="form-check-label" for="poll-option"> Cristiano Ronaldo </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="poll-option"
+              id="poll-option"
+              value="Maradona"
+            />
+            <label class="form-check-label" for="poll-option"> Maradona </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="poll-option"
+              id="poll-option"
+              value="Ronaldinho"
+            />
+            <label class="form-check-label" for="poll-option"> Ronaldinho </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="poll-option"
+              id="poll-option"
+              value="Others"
+            />
+            <label class="form-check-label" for="poll-option"> Others </label>
+          </div>
+
+          <input
+            type="submit"
+            value="Submit"
+            class="btn"
+          />
+        </form>
+
+        <div id="results" class="results"></div>
+      </div>
+    </div>
+  </body>
+</html>
