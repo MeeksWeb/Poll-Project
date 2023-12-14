@@ -92,7 +92,8 @@ body {
         margin-right: 44px;
     }
     .results{
-        margin-top: 1px;
+        margin-top: 5px;
+        font-size: small;
     }
     #poll-form .btn{
         padding: 6px 0;
