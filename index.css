@@ -72,15 +72,15 @@ body {
     .card-header {
         text-align: center;
         background-color: blue;
-        width: 382px;
+        width: 323px;
         margin: 0 auto;
         padding: 10px 0;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
     }
     .card {
-        height: 510px;
-        width: 382px;
+        height: 560px;
+        width: 323px;
         margin: 0 auto;
         background-color: white;
         box-shadow: 0 0 5px black;
@@ -96,7 +96,7 @@ body {
     }
     #poll-form .btn{
         padding: 6px 0;
-        width: 300px;
+        width: 240px;
         margin: 20px auto;
         border-radius: 10px;
         background-color: black;
